@@ -188,7 +188,7 @@ export const generateScript = async (titles: string, config: VideoConfig): Promi
       };
   } catch (e: any) {
     console.error("Script Gen Error:", e);
-    throw new Error("Failed to generate script. Please try again with a shorter description.");
+    throw new Error(e.message || "Script generation failed. Please try again.");
   }
 };
 
