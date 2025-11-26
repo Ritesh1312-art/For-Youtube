@@ -1,0 +1,7 @@
+{
+  "name": "Video Generatoy by Ritesh Gupta",
+  "description": "A comprehensive YouTube automation tool that generates scripts, voiceovers, animated visuals, and organizes assets into a downloadable package using Gemini 2.5.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
