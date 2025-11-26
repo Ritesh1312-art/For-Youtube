@@ -322,13 +322,13 @@ const App: React.FC = () => {
                   <h3 className="text-sm font-semibold text-blue-400 uppercase tracking-wide">Video Settings</h3>
                   <div>
                     <label className="text-xs text-slate-400 block mb-1">Duration</label>
-                    <select value={config.duration} onChange={(e) => setConfig({...config, duration: e.target.value})} className="input-field">
+                    <select value={config.duration} onChange={(e) => setConfig({...config, duration: e.target.value})} className="w-full bg-white border border-slate-600 rounded-lg p-2.5 text-sm text-black focus:ring-2 focus:ring-blue-500 focus:outline-none transition-all">
                         <option>10 sec</option><option>20 sec</option><option>1 min</option><option>5 min</option><option>20 min</option><option>30 min</option>
                     </select>
                   </div>
                   <div>
                     <label className="text-xs text-slate-400 block mb-1">Aspect Ratio</label>
-                    <select value={config.aspectRatio} onChange={(e) => setConfig({...config, aspectRatio: e.target.value})} className="input-field">
+                    <select value={config.aspectRatio} onChange={(e) => setConfig({...config, aspectRatio: e.target.value})} className="w-full bg-white border border-slate-600 rounded-lg p-2.5 text-sm text-black focus:ring-2 focus:ring-blue-500 focus:outline-none transition-all">
                         <option value="16:9">16:9 (Landscape)</option><option value="9:16">9:16 (Shorts/Reels)</option>
                     </select>
                   </div>
@@ -339,13 +339,13 @@ const App: React.FC = () => {
                   <h3 className="text-sm font-semibold text-blue-400 uppercase tracking-wide">Content Style</h3>
                   <div>
                     <label className="text-xs text-slate-400 block mb-1">Visual Style</label>
-                    <select value={config.style} onChange={(e) => setConfig({...config, style: e.target.value})} className="input-field">
+                    <select value={config.style} onChange={(e) => setConfig({...config, style: e.target.value})} className="w-full bg-white border border-slate-600 rounded-lg p-2.5 text-sm text-black focus:ring-2 focus:ring-blue-500 focus:outline-none transition-all">
                         <option>Realistic</option><option>Cartoonistic</option><option>3D</option><option>360</option>
                     </select>
                   </div>
                   <div>
                     <label className="text-xs text-slate-400 block mb-1">Language</label>
-                    <select value={config.language} onChange={(e) => setConfig({...config, language: e.target.value})} className="input-field">
+                    <select value={config.language} onChange={(e) => setConfig({...config, language: e.target.value})} className="w-full bg-white border border-slate-600 rounded-lg p-2.5 text-sm text-black focus:ring-2 focus:ring-blue-500 focus:outline-none transition-all">
                         <option>English</option><option>Hindi</option>
                     </select>
                   </div>
@@ -356,7 +356,7 @@ const App: React.FC = () => {
                   <h3 className="text-sm font-semibold text-blue-400 uppercase tracking-wide">Audio & Voice</h3>
                   <div>
                     <label className="text-xs text-slate-400 block mb-1">Voice Personality</label>
-                    <select value={config.voice} onChange={(e) => setConfig({...config, voice: e.target.value})} className="input-field">
+                    <select value={config.voice} onChange={(e) => setConfig({...config, voice: e.target.value})} className="w-full bg-white border border-slate-600 rounded-lg p-2.5 text-sm text-black focus:ring-2 focus:ring-blue-500 focus:outline-none transition-all">
                         <option value="Puck">Puck (Male - Deep)</option>
                         <option value="Charon">Charon (Male - Authoritative)</option>
                         <option value="Kore">Kore (Female - Calm)</option>
@@ -381,13 +381,13 @@ const App: React.FC = () => {
                    <h3 className="text-sm font-semibold text-blue-400 uppercase tracking-wide">Render Effects</h3>
                    <div>
                     <label className="text-xs text-slate-400 block mb-1">Animation Speed</label>
-                    <select value={config.animationSpeed} onChange={(e) => setConfig({...config, animationSpeed: e.target.value as any})} className="input-field">
+                    <select value={config.animationSpeed} onChange={(e) => setConfig({...config, animationSpeed: e.target.value as any})} className="w-full bg-white border border-slate-600 rounded-lg p-2.5 text-sm text-black focus:ring-2 focus:ring-blue-500 focus:outline-none transition-all">
                         <option>Slow</option><option>Medium</option><option>Fast</option>
                     </select>
                    </div>
                    <div>
                     <label className="text-xs text-slate-400 block mb-1">Transitions</label>
-                    <select value={config.transition} onChange={(e) => setConfig({...config, transition: e.target.value as any})} className="input-field">
+                    <select value={config.transition} onChange={(e) => setConfig({...config, transition: e.target.value as any})} className="w-full bg-white border border-slate-600 rounded-lg p-2.5 text-sm text-black focus:ring-2 focus:ring-blue-500 focus:outline-none transition-all">
                         <option>None</option><option>Fade</option>
                     </select>
                    </div>
