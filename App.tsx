@@ -267,7 +267,7 @@ const App: React.FC = () => {
             <Lock className="w-8 h-8 text-blue-400" />
           </div>
           <div>
-            <h2 className="text-xl font-bold text-white">TubeAutomator Locked</h2>
+            <h2 className="text-xl font-bold text-white">Video Generator</h2>
             <p className="text-slate-400 text-sm mt-2">Please enter the security PIN to access.</p>
           </div>
           <input 
@@ -597,10 +597,10 @@ const App: React.FC = () => {
 
       <style>{`
         .input-field {
-            @apply w-full bg-slate-900 border border-slate-600 rounded-lg p-2.5 text-sm text-white focus:ring-2 focus:ring-blue-500 focus:outline-none transition-all;
+            @apply w-full bg-slate-900 border border-slate-600 rounded-lg p-2.5 text-sm text-black focus:ring-2 focus:ring-blue-500 focus:outline-none transition-all;
         }
         .btn-primary {
-            @apply w-full text-white font-bold py-3 rounded-lg flex items-center justify-center space-x-2 transition-all shadow-lg;
+            @apply w-full text-black font-bold py-3 rounded-lg flex items-center justify-center space-x-2 transition-all shadow-lg;
         }
       `}</style>
     </div>
